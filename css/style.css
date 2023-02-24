@@ -40,7 +40,7 @@ body {
 
 header,
 footer {
-    position: sticky;
+    position: fixed;
     background-color: #1e293b;
     color: whitesmoke;
     text-align: center;
