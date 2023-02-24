@@ -128,9 +128,6 @@ footer {
 /* || MEDIUM */
 @media screen and (min-width: 768px) {
 
-    main {
-        min-height: calc(100vh - 6.1rem);
-    }
 
     nav {
         display: none;
@@ -171,9 +168,6 @@ footer {
 
 /* || XL */
 @media screen and (min-width: 1200px) {
-    main {
-        min-height: calc(100vh - 6.1rem);
-    }
     .card {
         width: min(calc(33% - 1rem), 500px);
     }
@@ -181,9 +175,6 @@ footer {
 
 /* || XL */
 @media screen and (min-width: 1200px) {
-    main {
-        min-height: calc(100vh - 6.1rem);
-    }
     .card {
         width: min(calc(33% - 1rem), 500px);
     }
