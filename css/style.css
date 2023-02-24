@@ -26,7 +26,6 @@ html {
 body {
     font: 1.5rem "Nunito", sans-serif;
     min-height: 100vh;
-    height: 100%;
 
     background-color: #475569;
     background-image: radial-gradient(whitesmoke, #475569);
@@ -68,10 +67,10 @@ nav a:hover, nav a:focus {
 }
 
 main {
+    flex-grow: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
-    vertical-align: center;
     gap: 1.5rem;
     padding: 1rem;
 }
@@ -127,8 +126,6 @@ footer {
 
 /* || MEDIUM */
 @media screen and (min-width: 768px) {
-
-
     nav {
         display: none;
     }
@@ -152,11 +149,6 @@ footer {
 
 /* || LARGE */
 @media screen and (min-width: 992px) {
-
-    main {
-            min-height: calc(100vh - 6.1rem);
-        }
-
     .card {
         width: min(100%, 400px);
     }
