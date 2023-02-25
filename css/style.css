@@ -42,9 +42,15 @@ body {
     display: none;
 }
 
+.wrapper {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
 header,
 footer {
-    position: sticky;
     background-color: #1e293b;
     color: whitesmoke;
     text-align: center;
@@ -72,7 +78,10 @@ nav a:hover, nav a:focus {
 }
 
 main {
-    flex-grow: 1;
+    flex: 1 auto;
+    position:relative;
+    min-height:calc(100vh - 210px);
+    overflow:auto;
     display: flex;
     flex-direction: column;
     align-items: center;
