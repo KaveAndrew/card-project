@@ -109,6 +109,18 @@ footer {
     text-align: center;
 }
 
+/* || DARK MODE */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #2b394d;
+        background-image: radial-gradient(rgb(0, 0, 0), #2b394d);
+    }
+    .card {
+        background-color: #475569;
+        color: whitesmoke;
+    }
+}
+
 /* || SMALL */
 @media screen and (min-width: 576px) {
     main {
