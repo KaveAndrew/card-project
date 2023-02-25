@@ -76,9 +76,8 @@ main {
 }
 
 footer {
-    position: fixed;
-    width: 100%;
-    bottom: calc();
+    position: sticky;
+    bottom: 0;
 }
 
 /* || PROFILE CARD */
