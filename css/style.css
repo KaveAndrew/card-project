@@ -76,7 +76,6 @@ main {
 }
 
 footer {
-    position: sticky;
     bottom: 0;
 }
 
@@ -133,7 +132,7 @@ footer {
         width: min(100%, 400px);
     }
     .card:last-child {
-        margin-bottom: 2rem;
+        order: -1;
     }
 }
 
