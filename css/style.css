@@ -39,7 +39,6 @@ body {
 
 header,
 footer {
-    overscroll-behavior: contain;
     position: sticky;
     background-color: #1e293b;
     color: whitesmoke;
