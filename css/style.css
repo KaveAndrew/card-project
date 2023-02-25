@@ -39,7 +39,7 @@ body {
 
 header,
 footer {
-    position: -webkit-sticky;
+    position: sticky;
     background-color: #1e293b;
     color: whitesmoke;
     text-align: center;
